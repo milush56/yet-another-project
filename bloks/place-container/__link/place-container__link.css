@@ -6,6 +6,5 @@
 }
 
 .place-container__link:hover {
-  color: #AAA;
-  text-decoration: underline;
+  opacity: 0.8;
 }
