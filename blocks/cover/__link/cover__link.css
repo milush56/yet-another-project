@@ -1,0 +1,13 @@
+.cover__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline;
+	width: 100%;
+	cursor: pointer;
+	text-decoration: none;
+  box-sizing: border-box;
+  z-index: 2;
+}

@@ -1,0 +1,14 @@
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    flex-direction: column;
+  }
+}
+
+/*display: grid;
+  grid-template-columns: repeat(5, minmax(min-content, max-content));
+  gap: 0 18px;*/
