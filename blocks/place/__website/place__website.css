@@ -4,3 +4,10 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+}

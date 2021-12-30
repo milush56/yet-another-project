@@ -2,24 +2,30 @@
   max-width: 984px;
   margin: 0 auto;
   padding: 12px 0 92px 0;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
+    padding-right: calc(4vw + 7.04px);
+    padding-left: calc(4vw + 7.04px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
+    padding-right: calc(3vw + 0.96px);
+    padding-left: calc(3vw + 0.96px);
+    padding-top: 15px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
     max-width: 320px;
-    padding-bottom: 52px;
+    padding-bottom: 66px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
